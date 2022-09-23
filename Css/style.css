@@ -1,0 +1,248 @@
+/* added google font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 3rem;
+}
+.menu{
+    display: none;
+}
+/* header */
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 2rem;
+}
+.logo{
+    float: left;
+}
+.logo h1{
+    font-size: 2.5rem;
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.nav ul li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav ul li a{
+    padding: 0rem 1.2rem;
+    font-size: 1rem;
+}
+/* header */
+/* We Power eCommerce */
+.we_power{
+    background-color: #eeeeee;
+    padding: 2rem .8rem;
+}
+.we_power h2{
+    font-size: 1.8rem;
+}
+.we_power p{
+    width: 28.5%;
+    padding: 1rem 0rem;
+    font-size: 1rem;
+}
+.we_power button{
+    width: 10rem;
+    height: 1.5rem;
+    background-color: #f7f7f6;
+    border-radius: 5px;
+    font-size: .8rem;
+}
+/* We Power eCommerce */
+/* Heading Box */
+.headings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    text-align: center;
+}
+
+.empty_box{
+    background-color: #eeeeee;
+    height: 44vh;
+    width: 22vw;
+    margin: 2rem;
+}
+.heading h3{
+    font-size: 1.8rem;
+    margin: 1rem;
+}
+.heading p{
+    font-size: .8rem;
+}
+.heading a{
+    font-size: .8rem;
+    margin: 1rem;
+}
+/* Heading Box */
+/* subscription */
+.subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeeeee;
+    padding: 1rem 0rem;
+    margin: 1rem 0rem;
+}
+.subscribe p, form{
+    margin: 0rem 0.5rem;
+}
+.subscribe p{
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+.subscribe input{
+    height: 1.5rem;
+    width: 12rem;
+    text-indent: 10px;
+
+}
+.subscribe button{
+    height: 1.5rem;
+    width: 10rem;
+    background-color: #288acf;
+    border: none;
+    color: white;
+    text-align: left;
+    text-indent: 35px;
+    font-size: .8rem;
+}
+/* subscription */
+/* footer */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+.footer p{
+    font-size: .8rem;
+}
+/* footer */
+@media screen and (max-width: 768px) {
+    /* header */
+    .logo h1{
+        font-size: 1.5rem;
+    }
+    .nav ul li a{
+        padding: 0rem 1rem;
+        font-size: .8rem;
+    }
+    /* header */
+    /* We Power eCommerce */
+    .we_power h2{
+        font-size: .8rem;
+    }
+    .we_power p{
+        width: 50%;
+        font-size: .5rem;
+    }
+    .we_power button{
+        width: 4rem;
+        height: 1.5rem;
+        font-size: .5rem;
+    }
+/* We Power eCommerce */
+/* Heading Box */
+    .heading h3{
+        font-size: .8rem;
+        margin: 1rem;
+    }
+    .heading p{
+        font-size: .5rem;
+    }
+    .heading a{
+        font-size: .5rem;
+        margin: 1rem;
+    }
+    /* Heading Box */
+/* subscription */
+    .subscribe p{
+        font-size: .9rem;
+    }
+    .subscribe input{
+        height: .8rem;
+        width: 8rem;
+        text-indent: 10px;
+    
+    }
+    .subscribe button{
+        height: .8rem;
+        width: 6rem;
+        background-color: #288acf;
+        text-indent: 25px;
+        font-size: .5rem;
+    }
+    /* subscription */
+/* footer */
+    .footer p{
+        font-size: .5rem;
+    }
+    /* footer */
+  }
+  @media screen and (max-width: 576px) {
+    /* header */
+      .nav{
+          display: none;
+      }
+    .menu{
+        display: block;
+    }
+    .menu p{
+        font-size: .8rem;
+    }
+    .logo h1{
+        font-size: 1rem;
+    }
+    /* header */
+     /* Heading Box */
+    .headings{
+        display: block;
+        margin: auto;
+    }
+    .heading{
+        margin: 2rem;
+    }
+    .empty_box{
+        background-color: #eeeeee;
+        margin: auto;
+        height: 30vh;
+        width: 50vw;
+    }
+    /* Heading Box */
+/* subscription */
+    .subscribe p{
+        font-size: .5rem;
+        font-weight: bold;
+    
+    }
+    .subscribe input{
+        height: .5rem;
+        width: 7rem;
+        font-size: .5rem;
+        text-align: left;
+    
+    }
+    .subscribe button{
+        height: .8rem;
+        width: 4rem;
+        text-indent: 10px;
+        font-size: .5rem;
+    }
+    /* subscription */
+  }
